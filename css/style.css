@@ -24,9 +24,10 @@ header {
   color: #fff;
   min-height: 100vh;
   display: flex;
-  background-image: url('../images/city.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../images/city.jpg');
   background-size: cover;
   background-position: center center;
+  
 }
 
 main {
@@ -61,7 +62,7 @@ h2 {
   /* Chrome 10-25, Safari 5.1-6 */
   color: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
-  padding: 10px 0px 10px 10px;
+  padding: 10px 20px 0 20px;
 }
 
 img {
@@ -85,7 +86,7 @@ img {
 }
 
 .project {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);
   width: 100%;
 }
 
@@ -107,7 +108,7 @@ img {
 }
 
 .myButton:hover {
-  background-color: #e69708;
+  background-color: #12045852;
 }
 
 .myButton:active {
@@ -144,22 +145,15 @@ img {
 
 .description {
   font-family:'IBM Plex Sans Condensed', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  padding: 0 20px 20px 20px;
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
 
 .container {
   /*  min-width: 500px; */
